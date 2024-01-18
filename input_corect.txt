@@ -1,0 +1,135 @@
+ENTRY
+USRDEF
+class Tip
+{
+    Vars:
+        int numar1;
+        int numar2;
+    Methods:
+        fn int calculeaza(int param) 
+        {
+            float temp=5.0;
+            return 1;
+        }
+    Constructs:
+        Tip() {}
+};
+
+GLOBALVAR
+
+int a;
+int b;
+float d;
+string sir;
+char c;
+char maria;
+bool variabilaBool;
+int vector2[100];
+class Tip obiect;
+
+GLOBALFUNC
+
+fn int functieGlobala(int valoare)
+{
+    int variabilaLocala;
+    return variabilaLocala;
+}
+
+fn int Calcul(int a, float b, string c)
+{
+    int temporar;
+}
+
+fn float altaFunctie(int x)
+{
+    float ceva;
+}
+
+fn bool verificaBool() 
+{
+    return false;
+}
+
+main 
+{
+    int aida=0;
+    if aida>0 
+    {
+        aida=2;
+    } 
+    else 
+    {
+        aida=3;
+    }
+    
+    aida=aida+10;
+    string sir="ningeee";
+    float vector[125];
+    int i=1; 
+    vector[0]=5.9-3.4;  
+    vector[i]=1.1+vector[0];
+    
+    Eval(vector[0]);
+    Eval(vector[i]);
+    
+    int vectorInt[]=[6, 7, 8];
+    vectorInt[i]=-3;
+   
+    Eval(vectorInt[i]);
+    Eval(vectorInt[2]);
+    Eval(2+3+1-4-516+211);
+    Eval(23*14/2);
+    int lfac=20+6-20/4+vectorInt[i]+functieGlobala(vectorInt[i]);
+    Eval(lfac);
+    TypeOf(lfac);
+    
+    for(i=1; i<3; i+1) 
+    {
+        bool t=true;
+    }
+
+    while a>5 
+    {
+        b=1;
+        a=b+3;
+    }
+    
+    a=3;
+    b=250+a;
+    d=12.8+34.1-56.3;
+    float x=1.2;
+    float y=2.1;
+    x=x*y*y*y/y-x+y*y-x*x/x;
+    Eval(x);
+
+    TypeOf(a+5);
+    TypeOf(c);
+    TypeOf(5.4);
+    TypeOf(sir);
+    TypeOf(d);
+    
+    Eval(a==3);
+    Eval(a<400);
+    Eval(b>=250);
+    
+    c='c';
+    maria='M';
+    sir="lfac este materia mea preferata";
+    variabilaBool=false;
+   
+    Eval(c);
+    Eval(maria);
+    Eval(verificaBool());
+    Eval(variabilaBool);
+    Eval(true or false);
+    Eval(true and false);
+    Eval(not true);
+    Eval(not false);
+
+    obiect.numar1=7;
+    vector2[7]=21;
+    a=a+obiect.numar1-vector2[7];
+    Eval(a);
+}
+
+EXIT

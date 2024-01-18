@@ -1,0 +1,24 @@
+//erori care pot fi adaugate in fisierul input_corect pentru a demonstra ce se intampla
+
+int y; 
+y=y+altaFunctie(10);//eroare:tipuri diferite, int si float
+y=variabilaBool+y; //eroare: utilizare incorecta a tipurilor (operatie invalida intre variabile bool)
+TypeOf(y+altaFunctie(10)); //eroare: utilizare functie in TypeOf (tipuri diferite, int si float)
+
+sir=sir+sir; //concatenare siruri (operatie invalida)
+
+bool rata=verificaBool()+verificaBool(); //eroare: utilizare incorecta a tipurilor bool
+
+Calcul(14, 14, 14); //eroare: apel functie cu argumente incorecte
+
+sir=Calcul(10, 10.5, sir); //eroare: atribuire incorecta (tipuri diferite)
+
+const string sir3="bunaa";
+sir3="salutt"; //eroare: modifica const
+
+const char caracter2='Y';
+caracter2='Z'; //eroare: modifica const
+
+const int cifra=4;
+cifra=116; //eroare: modifica const
+     

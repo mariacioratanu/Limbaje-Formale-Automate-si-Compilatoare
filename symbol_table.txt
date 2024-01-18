@@ -1,0 +1,55 @@
+SYMBOL TABLE
+
+Lista variabilelor:
+Nume: numar1, Tipul: int, Context: Tip, E Constanta?: NU E CONSTANTA
+Nume: numar2, Tipul: int, Context: Tip, E Constanta?: NU E CONSTANTA
+Nume: temp, Tipul: float, Context: calculeaza, Valoare: 5, E Constanta?: NU E CONSTANTA
+Nume: a, Tipul: int, Context: global, Valoare: 3, E Constanta?: NU E CONSTANTA
+Nume: b, Tipul: int, Context: global, Valoare: 253, E Constanta?: NU E CONSTANTA
+Nume: d, Tipul: float, Context: global, Valoare: -9.4, E Constanta?: NU E CONSTANTA
+Nume: sir, Tipul: string, Context: global, String Valoare: lfac este materia mea preferata, E Constanta?: NU E CONSTANTA
+Nume: c, Tipul: char, Context: global, Valoare: c, E Constanta?: NU E CONSTANTA
+Nume: maria, Tipul: char, Context: global, Valoare: M, E Constanta?: NU E CONSTANTA
+Nume: variabilaBool, Tipul: bool, Context: global, Valoare: false, E Constanta?: NU E CONSTANTA
+Nume: obiect, Tipul: Tip, Context: global, E Constanta?: NU E CONSTANTA
+Nume: variabilaLocala, Tipul: int, Context: functieGlobala, E Constanta?: NU E CONSTANTA
+Nume: temporar, Tipul: int, Context: Calcul, E Constanta?: NU E CONSTANTA
+Nume: ceva, Tipul: float, Context: altaFunctie, E Constanta?: NU E CONSTANTA
+Nume: aida, Tipul: int, Context: main, Valoare: 13, E Constanta?: NU E CONSTANTA
+Nume: sir, Tipul: string, Context: main, String Valoare: ningeee, E Constanta?: NU E CONSTANTA
+Nume: i, Tipul: int, Context: main, Valoare: 1, E Constanta?: NU E CONSTANTA
+Nume: lfac, Tipul: int, Context: main, Valoare: 18, E Constanta?: NU E CONSTANTA
+Nume: t, Tipul: bool, Context: main, Valoare: true, E Constanta?: NU E CONSTANTA
+Nume: x, Tipul: float, Context: main, Valoare: 7.302, E Constanta?: NU E CONSTANTA
+Nume: y, Tipul: float, Context: main, Valoare: 2.1, E Constanta?: NU E CONSTANTA
+Nume: sir3, Tipul: string, Context: main, String Valoare: bunaa, E Constanta?: CONSTANTA
+
+Lista de vectori:
+Nume: vector2, Tipul: int, Capacitatea: 100, Context: global, Elemente: Niciunu
+Nume: vector, Tipul: float, Capacitatea: 125, Context: main
+	Elemente: 2.5 3.6 
+Nume: vectorInt, Tipul: int, Capacitatea: 3, Context: main
+	Elemente: 6 -3 8 
+
+Lista Functii:
+Nume: calculeaza, Return Tipul: int, Context: Tip
+	Parametrii:
+		Nume: param, Tipul: int, E Constanta?: NU E CONSTANT
+Nume: Tip, Return Tipul: none (CONSTRUCTOR), Context: Tip
+	Parametrii:
+Nume: functieGlobala, Return Tipul: int, Context: global
+	Parametrii:
+		Nume: valoare, Tipul: int, E Constanta?: NU E CONSTANT
+Nume: Calcul, Return Tipul: int, Context: global
+	Parametrii:
+		Nume: a, Tipul: int, E Constanta?: NU E CONSTANT
+		Nume: b, Tipul: float, E Constanta?: NU E CONSTANT
+		Nume: c, Tipul: string, E Constanta?: NU E CONSTANT
+Nume: altaFunctie, Return Tipul: float, Context: global
+	Parametrii:
+		Nume: x, Tipul: int, E Constanta?: NU E CONSTANT
+Nume: verificaBool, Return Tipul: bool, Context: global
+	Parametrii:
+
+Lista tipurilor definite de user:
+Nume: Tip
